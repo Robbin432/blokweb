@@ -69,11 +69,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+**Je startniveau:** rood
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** surface plane (eventueel later ook responsive)
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** https://www.tesla.com/nl_be/modelx
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
