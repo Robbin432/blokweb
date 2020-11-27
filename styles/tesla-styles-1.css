@@ -4,6 +4,8 @@ body {
     padding: 0;
     font-family: Gotham, sans-serif;
     color: #393c41;
+
+
 }
 
 /*----------------HEADER----------------*/
@@ -44,13 +46,20 @@ ul li{
 
 /*---------------CONTENT---------------*/
 
+main{
+
+    white-space: nowrap;
+    scroll-snap-type: y mandatory;
+}
+
 a{
     color: #393c41
 }
 
 p{
     font-size: 2.3em;
-    margin: 55px 15vw 0;
+    margin: 55px 10vw 0;
+
 }
 
 
@@ -59,6 +68,9 @@ section {
     flex-direction: column;
     align-items: center;
     height: 100vh;
+
+    scroll-snap-align: start;
+
 }
 
 section h1{
@@ -75,7 +87,7 @@ section .button-1{
     background-color: #171A20cc;
     padding: 30px 0vw;
     width: 90vw;
-    margin: 48vh 0 0 0;
+    margin: 45vh 0 0 0;
     border-radius: 100px;
     color: white;
     text-align: center;
@@ -113,6 +125,8 @@ section img{
     background-size: cover;
     margin: 0px;
     padding: 0px;
+
+
 }
 
 #section-1 h1 {
