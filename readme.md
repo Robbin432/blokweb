@@ -43,6 +43,7 @@ Ik krijg het font nog niet helemaal zoals ik wil. De font-weight is maar beperkt
 **Screenshot(s):**
 
 Dit is hoe de home page er nu uit ziet. Als je naar beneden scrollt komen verschillende background images voorbij. Het is nog de bedoeling dat de overlay zich hier aan aanpast als je scrollt. Dit ga ik met JavaScript doen.
+
 <img src="images/week3update1.JPG" width="375px" alt="Home Screen v1">
 
 ### Agenda voor meeting
