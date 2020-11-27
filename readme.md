@@ -42,7 +42,7 @@ Ik krijg het font nog niet helemaal zoals ik wil. De font-weight is maar beperkt
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="images/week3update1.JPG" width="375px" alt="Home Screen v1">
 
 ### Agenda voor meeting
 
