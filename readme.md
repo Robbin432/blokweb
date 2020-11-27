@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** Robbin Jansen
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -38,7 +38,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Het opzetten van de website tot dusver ging goed. Uitdagingen die ik tot nu toe ben tegengekomen waren het installeren van het custom font en de header juist opmaken met flexbox en position: fixed.
+
+Ik krijg het font nog niet helemaal zoals ik wil. De font-weight is maar beperkt in te stellen en ik krijg deze nog niet gelijk met die van tesla.com.
 
 **Screenshot(s):**
 
