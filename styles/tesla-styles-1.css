@@ -29,14 +29,14 @@ header img{
 }
 
 
-ul {
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0 50px;
 
 }
 
-ul li{
+nav ul li{
     background-color: black;
     width: 45px;
     height: 5px;
@@ -54,6 +54,11 @@ main{
     height: 100vh;
 }
 
+#overlay{
+    position: fixed;
+    z-index: 100;
+}
+
 a{
     color: #393c41
 }
@@ -61,6 +66,7 @@ a{
 p{
     font-size: 2.3em;
     margin: 55px 10vw 0;
+    max-width: 80vw;
 
 }
 
@@ -181,6 +187,35 @@ section img{
     padding: 0px;
 }
 
+/*----------------FOOTER-----------------*/
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    z-index: 200;
+
+
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer li{
+    width: 80vw;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0 ;
+
+    animation: fadeIn, ease 20s;
+}
 
 
 
@@ -193,14 +228,12 @@ section img{
 
 
 
+/*keyframes*/
 
-
-
-
-
-
-
-
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
 
 
 
