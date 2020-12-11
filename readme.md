@@ -28,8 +28,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
 
+Ik ben vooral bezig geweest met het onder de knie krijgen van de oefeningen en het inhalen van herkansingen. Ik heb daarom de website nog even links laten liggen. Ik ben wel bezig geweest om de overlay over de sections te krijgen. Het is mij echter nog nog niet gelukt dit goed te krijgen want de scroll snap gaat hierdoor fout. Verder heb ik wel een scroll snap toegevoegd aan de verschillende secties en een footer. Deze footer moet nog een fade in effect krijgen. Hier ben ik mee bezig.
 
 
 ## Voortgang 1 (week 3)
