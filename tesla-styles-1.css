@@ -129,7 +129,7 @@ section img{
 /*----------------BLOK 1-----------------*/
 
 #section-1 {
-    background-image: url(../images/mobile_model_3_v2.jpg);
+    background-image: url(/blokweb/images/mobile_model_3_v2.jpg);
     background-size: cover;
     margin: 0px;
     padding: 0px;
