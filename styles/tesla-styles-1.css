@@ -128,7 +128,7 @@ section img{
 
 /*----------------BLOK 1-----------------*/
 
-#section-1 {
+main > section:nth-child(1) {
     background-image: url(../images/mobile_model_3_v2.jpg);
     background-size: cover;
     margin: 0px;
@@ -137,55 +137,113 @@ section img{
 
 }
 
-#section-1 h1 {
+main section:nth-child(1) h1 {
     margin-top: 20vh;
     margin-bottom: 0px;
 }
 
+main > section:nth-child(1) > section:nth-child(1) {
+    z-index: 2;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+}
+
 /*----------------BLOK 2-----------------*/
 
-#section-2 {
+main > section:nth-child(2) {
     background-image: url(../images/Mobile-ModelS.jpg);
     background-size: cover;
     margin: 0px;
     padding: 0px;
+
+}
+
+main > section:nth-child(2) > section:nth-child(1) {
+    z-index: 3;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
 }
 
 /*----------------BLOK 3-----------------*/
 
-#section-3 {
+main > section:nth-child(3) {
     background-image: url(../images/Mobile-ModelX.jpg);
     background-size: cover;
     margin: 0px;
     padding: 0px;
 }
 
+main > section:nth-child(3) > section:nth-child(1) {
+    z-index: 4;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+
+}
+
 /*----------------BLOK 2-----------------*/
 
-#section-4 {
+main > section:nth-child(4) {
     background-image: url(../images/Mobile-ModelY.jpg);
     background-size: cover;
     margin: 0px;
     padding: 0px;
 }
 
+main > section:nth-child(4) > section:nth-child(1) {
+    z-index: 5;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+
+}
+
 /*----------------BLOK 5-----------------*/
 
-#section-5 {
+main > section:nth-child(5) {
     background-image: url(../images/Mobile-SolarPanels.jpg);
     background-size: cover;
     margin: 0px;
     padding: 0px;
 }
 
+main > section:nth-child(5) > section:nth-child(1) {
+    z-index: 6;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+
+}
+
 /*----------------BLOK 6-----------------*/
 
-#section-6 {
+main > section:nth-child(6) {
     background-image: url(../images/Mobile-Accessories.jpg);
     background-size: cover;
     margin: 0px;
     padding: 0px;
 }
+
+main > section:nth-child(6) > section:nth-child(1) {
+    z-index: 7;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+}
+
+/*----------------OVERLAY-----------------*/
+
+
+
+
 
 /*----------------FOOTER-----------------*/
 
