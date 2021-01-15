@@ -22,7 +22,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Ik heb de homepage nu opgedeeld in verschillende secties. Ik wil deze aan de hand van de scroll positie laten in- of uitfaden met
+JavaSCript.
 
 
 
