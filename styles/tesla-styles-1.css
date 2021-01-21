@@ -24,25 +24,76 @@ header {
 }
 
 header img{
-    height: 25px;
+    height: 1em;
     margin: 0px 50px;
 }
 
+nav:nth-of-type(1){
+    z-index: 1000;
+}
 
-nav ul {
+nav:nth-of-type(1) ul {
     list-style: none;
-    margin: 0;
-    padding: 0 50px;
-
+    margin: 0 50px;
+    padding: 0;
 }
 
-nav ul li{
+nav:nth-of-type(1) ul li{
     background-color: black;
-    width: 45px;
-    height: 5px;
-    margin: 8px;
+    width: 2em;
+    height: 4px;
+    margin: 0.4em ;
 }
 
+button{
+    background: none;
+    border: none;
+}
+
+nav:nth-of-type(2) {
+    z-index: 101;
+    background-color: white;
+    height: 100vh;
+    width: 19em;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+nav:nth-of-type(2) li{
+
+    padding: 1.5em 0;    list-style: none;
+    border-bottom: 1px solid;
+    border-bottom-color: lightgray;
+
+}
+
+nav li:nth-of-type(1){
+
+    margin-top: 5em;
+
+}
+
+nav:nth-of-type(2) li a{
+    text-decoration: none;
+}
+
+.menuhidden{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.menushown{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.navbuttonoff{
+
+}
+
+.navbuttonshown{
+    z-index: 10000;
+}
 
 /*---------------CONTENT---------------*/
 
@@ -64,7 +115,7 @@ a{
 }
 
 p{
-    font-size: 2.3em;
+    font-size: 1.5em;
     margin: 55px 10vw 0;
     max-width: 80vw;
 
@@ -76,8 +127,8 @@ section {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-
     scroll-snap-align: start;
+
 
 }
 
@@ -93,9 +144,9 @@ section .title-link{
 
 section .button-1{
     background-color: #171A20cc;
-    padding: 30px 0vw;
+    padding: 0.5em 0vw;
     width: 90vw;
-    margin: 45vh 0 0 0;
+    margin: 0 0 0 0;
     border-radius: 100px;
     color: white;
     text-align: center;
@@ -108,7 +159,7 @@ section .button-1{
 
 section .button-2{
     background-color: #FFFFFFA6;
-    padding: 30px 0vw;
+    padding: 0.5em 0vw;
     width: 90vw;
     margin: 40px 0 0 0;
     border-radius: 100px;
@@ -130,11 +181,10 @@ section img{
 
 main > section:nth-child(1) {
     background-image: url(../images/mobile_model_3_v2.jpg);
-    background-size: cover;
+    background-size: contain;
     margin: 0px;
     padding: 0px;
-
-
+    pointer-events: none;
 }
 
 main section:nth-child(1) h1 {
@@ -148,16 +198,17 @@ main > section:nth-child(1) > section:nth-child(1) {
     left: 0px;
     top: 0px;
     opacity: 1;
+    width: 100%;
 }
 
 /*----------------BLOK 2-----------------*/
 
 main > section:nth-child(2) {
     background-image: url(../images/Mobile-ModelS.jpg);
-    background-size: cover;
+    background-size: contain;
     margin: 0px;
     padding: 0px;
-
+    pointer-events: none;
 }
 
 main > section:nth-child(2) > section:nth-child(1) {
@@ -166,15 +217,18 @@ main > section:nth-child(2) > section:nth-child(1) {
     left: 0px;
     top: 0px;
     opacity: 0;
+    width: 100%;
 }
 
 /*----------------BLOK 3-----------------*/
 
 main > section:nth-child(3) {
     background-image: url(../images/Mobile-ModelX.jpg);
-    background-size: cover;
+    background-size: contain;
     margin: 0px;
     padding: 0px;
+    pointer-events: none;
+    width: 100%;
 }
 
 main > section:nth-child(3) > section:nth-child(1) {
@@ -183,16 +237,18 @@ main > section:nth-child(3) > section:nth-child(1) {
     left: 0px;
     top: 0px;
     opacity: 0;
-
+    width: 100%;
 }
 
-/*----------------BLOK 2-----------------*/
+/*----------------BLOK 4-----------------*/
 
 main > section:nth-child(4) {
     background-image: url(../images/Mobile-ModelY.jpg);
-    background-size: cover;
+    background-size: contain;
     margin: 0px;
     padding: 0px;
+    pointer-events: none;
+    width: 100%;
 }
 
 main > section:nth-child(4) > section:nth-child(1) {
@@ -201,16 +257,18 @@ main > section:nth-child(4) > section:nth-child(1) {
     left: 0px;
     top: 0px;
     opacity: 0;
-
+    width: 100%;
 }
 
 /*----------------BLOK 5-----------------*/
 
 main > section:nth-child(5) {
     background-image: url(../images/Mobile-SolarPanels.jpg);
-    background-size: cover;
+    background-size: contain;
     margin: 0px;
     padding: 0px;
+    pointer-events: none;
+    width: 100%;
 }
 
 main > section:nth-child(5) > section:nth-child(1) {
@@ -226,9 +284,11 @@ main > section:nth-child(5) > section:nth-child(1) {
 
 main > section:nth-child(6) {
     background-image: url(../images/Mobile-Accessories.jpg);
-    background-size: cover;
+    background-size: contain;
     margin: 0px;
     padding: 0px;
+    pointer-events: none;
+    width: 100%;
 }
 
 main > section:nth-child(6) > section:nth-child(1) {
@@ -237,6 +297,7 @@ main > section:nth-child(6) > section:nth-child(1) {
     left: 0px;
     top: 0px;
     opacity: 0;
+    width: 100%;
 }
 
 /*----------------OVERLAY-----------------*/
@@ -268,11 +329,11 @@ footer ul{
 
 footer li{
     width: 80vw;
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
     margin: 20px 0 ;
 
-    animation: fadeIn, ease 20s;
+/*    animation: fadeIn, ease 20s;*/
 }
 
 
@@ -280,11 +341,169 @@ footer li{
 
 
 
+/*END OF HOME PAGE*/
+
+/*START MODEL X PAGE*/
 
 
 
 
 
+/*----------------BLOCK 1-----------------*/
+
+#modelx main > section:nth-child(1) {
+    background-image: none;
+    background-size: contain;
+    margin: 0px;
+    padding: 0px;
+    pointer-events: none;
+    height: 150vh;
+    z-index: 1;
+}
+
+main > section:nth-child(1) > section:nth-child(1) {
+    z-index: 2;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+    width: 100vw;
+}
+
+video{
+    position: absolute;
+    z-index: -1;
+    min-height: 100vh;
+    min-width: 100vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+/*----------------BLOCK 2-----------------*/
+
+#modelx main > section:nth-child(2) {
+    background-color: white;
+    background-image: none;
+    background-size: auto;
+    margin: 0px;
+    padding: 0px;
+    pointer-events: none;
+
+    flex-direction: row;
+    z-index: 1;
+    opacity: 1;
+    width: 100%;
+}
+
+#modelx main > section:nth-child(2) > section:nth-child(1) {
+    background-image: none;
+    z-index: 2;
+    position: relative;
+    left: auto;
+    top: auto;
+    opacity: 1;
+    width: 100%;
+}
+
+#modelx main > section:nth-child(2){
+}
+
+
+#modelx main section #block2-1{
+    z-index: 1;
+    width: 30%;
+    height: 30%;
+/*    background-image: url(/images/safety-model-x-hero.png)*/
+}
+
+#modelx main section #block2-2{
+    z-index: 1;
+    width: 70%;
+    background-image: url(/images/safety-model-x-hero.png)
+}
+
+/*----------------BLOK 3-----------------*/
+
+#modelx main > section:nth-child(3) {
+    background-image: url(/images/modelx-snow.jpg);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    pointer-events: none;
+    width: 100%;
+}
+
+#modelx main > section:nth-child(3) > section:nth-child(1) {
+    z-index: 4;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: 100%;
+}
+
+/*----------------BLOK 4-----------------*/
+
+#modelx main > section:nth-child(4) {
+    background-image: url(../images/Mobile-ModelY.jpg);
+    background-size: contain;
+    margin: 0px;
+    padding: 0px;
+    pointer-events: none;
+    width: 100%;
+}
+
+#modelx main > section:nth-child(4) > section:nth-child(1) {
+    z-index: 5;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: 100%;
+}
+
+/*----------------BLOK 5-----------------*/
+
+#modelx main > section:nth-child(5) {
+    background-image: url(/images/modelx-black.jpg);
+    background-size: contain;
+    margin: 0px;
+    padding: 0px;
+    pointer-events: none;
+    width: 100%;
+}
+
+#modelx main > section:nth-child(5) > section:nth-child(1) {
+    z-index: 6;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+
+}
+
+/*----------------BLOK 6-----------------*/
+
+#modelx main > section:nth-child(6) {
+    background-image: url(../images/Mobile-Accessories.jpg);
+    background-size: contain;
+    margin: 0px;
+    padding: 0px;
+    pointer-events: none;
+    width: 100%;
+}
+
+#modelx main > section:nth-child(6) > section:nth-child(1) {
+    z-index: 7;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: 100%;
+}
 
 /*keyframes*/
 
