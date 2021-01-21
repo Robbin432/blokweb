@@ -416,19 +416,19 @@ video{
     z-index: 1;
     width: 30%;
     height: 30%;
-/*    background-image: url(/images/safety-model-x-hero.png)*/
+/*    background-image: url(../images/safety-model-x-hero.png)*/
 }
 
 #modelx main section #block2-2{
     z-index: 1;
     width: 70%;
-    background-image: url(/images/safety-model-x-hero.png)
+    background-image: url(../images/safety-model-x-hero.png)
 }
 
 /*----------------BLOK 3-----------------*/
 
 #modelx main > section:nth-child(3) {
-    background-image: url(/blokweb/images/modelx-snow.jpg);
+    background-image: url(../images/modelx-snow.jpg);
     background-size: cover;
     margin: 0px;
     padding: 0px;
@@ -448,7 +448,7 @@ video{
 /*----------------BLOK 4-----------------*/
 
 #modelx main > section:nth-child(4) {
-    background-image: url(/blokweb/images/Mobile-ModelY.jpg);
+    background-image: url(../images/Mobile-ModelY.jpg);
     background-size: contain;
     margin: 0px;
     padding: 0px;
@@ -468,7 +468,7 @@ video{
 /*----------------BLOK 5-----------------*/
 
 #modelx main > section:nth-child(5) {
-    background-image: url(/blokweb/images/modelx-black.jpg);
+    background-image: url(../images/modelx-black.jpg);
     background-size: contain;
     margin: 0px;
     padding: 0px;
@@ -488,7 +488,7 @@ video{
 /*----------------BLOK 6-----------------*/
 
 #modelx main > section:nth-child(6) {
-    background-image: url(/blockweb/images/Mobile-Accessories.jpg);
+    background-image: url(../images/Mobile-Accessories.jpg);
     background-size: contain;
     margin: 0px;
     padding: 0px;
