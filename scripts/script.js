@@ -18,9 +18,6 @@ function openMenu() {
 
 }
 
-//  setTimeout(function() {
-//    document.activeElement.blur();
-//  }, 300);
 
 //------------------Button-Hover---------------------------
 
@@ -102,7 +99,7 @@ var mainSectionLength = main.children.length;
 // console.log(mainSectionLength);
 for (var section = 0; section < mainSectionLength; section++) {
 if (visibleSectionRounded == (section + 0.5)) {
-//console.log("section (helft)" + section);
+console.log("section (helft)" + section);
 }
 
 }
