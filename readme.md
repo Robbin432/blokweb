@@ -23,7 +23,7 @@ De website is responsive van mobiel tot desktop.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+<img src="images/h1.JPG">
 
 
 
