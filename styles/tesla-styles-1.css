@@ -121,7 +121,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    padding: 50px 0px;
+    padding: 50px 0;
     margin: 0;
     position: fixed;
     z-index: 100;
@@ -131,24 +131,25 @@ header {
 
 header img{
     height: 1em;
-    margin: 0px 50px;
+    margin: 0 50px;
 }
 
 nav:nth-of-type(1){
     z-index: 1000;
 }
 
-nav:nth-of-type(1) ul {
-    list-style: none;
-    margin: 0 50px;
+nav:nth-of-type(1) span {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3em;
     padding: 0;
 }
 
-nav:nth-of-type(1) ul li{
+nav:nth-of-type(1) span span{
     background-color: black;
     width: 2em;
     height: 4px;
-    margin: 0.4em ;
+    margin: 0.2em;
 }
 
 /*
@@ -262,8 +263,9 @@ section h2{
     animation: fadeIn 2s;
 }
 
-
-
+#modelx section h2{
+    margin-top: 0;
+}
 section .title-link{
     font-size: 1em;
     animation: fadeIn 2s;
@@ -295,7 +297,7 @@ section .buttonwrapper .button-1{
 
 section .buttonwrapper .button-2{
     background-color: #FFFFFFA6;
-    padding: 0.5em 0vw;
+    padding: 0.5em 0;
     width: 90vw;
     margin: 40px 0 0 0;
     border-radius: 100px;
@@ -322,16 +324,16 @@ main > section:nth-child(1) {
     background-image: url("../images/desktop_model_3_v2.jpg");
     background-size: cover;
     background-position: center;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     pointer-events: none;
 }
 
 main > section:nth-child(1) div > section:nth-child(1) {
     z-index: 2;
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     opacity: 1;
     width: 100%;
 }
@@ -342,16 +344,16 @@ main > section:nth-child(2) {
     background-image: url("../images/Desktop-ModelS.jpg");
     background-size: cover;
     background-position: center;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     pointer-events: none;
 }
 
 main > section:nth-child(2) > section:nth-child(1) {
     z-index: 3;
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     opacity: 0;
     width: 100%;
 }
@@ -362,8 +364,8 @@ main > section:nth-child(3) {
     background-image: url("../images/Desktop-ModelX.jpg");
     background-size: cover;
     background-position: center;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     pointer-events: none;
     width: 100%;
 }
@@ -371,8 +373,8 @@ main > section:nth-child(3) {
 main > section:nth-child(3) > section:nth-child(1) {
     z-index: 4;
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     opacity: 0;
     width: 100%;
 }
@@ -383,8 +385,8 @@ main > section:nth-child(4) {
     background-image: url("../images/Desktop-ModelY.jpg");
     background-size: cover;
     background-position: center;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     pointer-events: none;
     width: 100%;
 }
@@ -392,8 +394,8 @@ main > section:nth-child(4) {
 main > section:nth-child(4) > section:nth-child(1) {
     z-index: 5;
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     opacity: 0;
     width: 100%;
 }
@@ -404,8 +406,8 @@ main > section:nth-child(5) {
     background-image: url("../images/Desktop-SolarPanels.jpg");
     background-size: cover;
     background-position: center;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     pointer-events: none;
     width: 100%;
 }
@@ -413,8 +415,8 @@ main > section:nth-child(5) {
 main > section:nth-child(5) > section:nth-child(1) {
     z-index: 6;
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     opacity: 0;
 
 }
@@ -425,8 +427,8 @@ main > section:nth-child(6) {
     background-image: url("../images/Desktop-Accessories.jpg");
     background-size: cover;
     background-position: center;
-    margin: 0px;
-    padding: 0px;
+    margin: 0 0 25vh 0;
+    padding: 0;
     pointer-events: none;
     width: 100%;
 }
@@ -434,8 +436,8 @@ main > section:nth-child(6) {
 main > section:nth-child(6) > section:nth-child(1) {
     z-index: 7;
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     opacity: 0;
     width: 100%;
 }
@@ -450,15 +452,14 @@ main > section:nth-child(6) > section:nth-child(1) {
 
 
 footer {
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
 
     width: 100vw;
-    z-index: 200;
-
+    z-index: -1;
 
 }
 
@@ -472,7 +473,11 @@ footer li{
     font-size: 1em;
     text-align: center;
     margin: 20px 0 ;
-    display: none;
+}
+
+#modelx footer{
+        display: none;
+}
 
 /*    animation: fadeIn, ease 20s;*/
 }
@@ -620,8 +625,8 @@ section:nth-child(1) .specbanner div{
     flex-direction: column;
     background-size: cover;
     background-image: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     pointer-events: none;
     height: 100vh;
     opacity: 1;
@@ -630,8 +635,8 @@ section:nth-child(1) .specbanner div{
 #modelx main > section:nth-child(3) > section:nth-child(1) {
     z-index: 1;
     position: relative;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     opacity: 1;
     width: 100%;
 }
@@ -701,8 +706,8 @@ section:nth-child(1) .specbanner div{
     flex-direction: row;
     background-size: cover;
     background-image: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     pointer-events: none;
     height: 100vh;
     opacity: 1;
@@ -711,8 +716,8 @@ section:nth-child(1) .specbanner div{
 #modelx main > section:nth-child(4) > section:nth-child(1) {
     z-index: 1;
     position: relative;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     opacity: 1;
     width: 100%;
 }
@@ -791,8 +796,8 @@ section:nth-child(4) .specbanner div{
 #modelx main > section:nth-child(5) > section:nth-child(1) {
     z-index: 1;
     position: relative;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     opacity: 1;
     width: 100%;
 }
@@ -856,28 +861,6 @@ section:nth-child(4) .specbanner div{
 
 }
 
-/*----------------BLOK 6-----------------*/
-
-/*
-#modelx main > section:nth-child(6) {
-    background-image: url(../images/Mobile-Accessories.jpg);
-    background-size: contain;
-    margin: 0px;
-    padding: 0px;
-    pointer-events: none;
-    width: 100%;
-    z-index: 1;
-}
-
-#modelx main > section:nth-child(6) > section:nth-child(1) {
-    z-index: 1;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    opacity: 0;
-    width: 100%;
-}
-*/
 
 /*keyframes*/
 
