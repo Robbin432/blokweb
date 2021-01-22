@@ -24,8 +24,12 @@ De website is responsive van mobiel tot desktop.
 **Screenshot(s):**
 
 <img src="images/h1.JPG">
-
-
+<img src="images/h2.JPG">
+<img src="images/h3.JPG">
+<img src="images/m1.JPG">
+<img src="images/m2.JPG">
+<img src="images/m3.JPG">
+<img src="images/m4.JPG">
 
 ## Voortgang 3 (week 6)
 
