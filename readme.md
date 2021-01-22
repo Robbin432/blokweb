@@ -9,7 +9,17 @@
 
 ## Eindgesprek (week 7/8)
 
-Ik ben erg veel bezig geweest met het schrijven van een JavaScript functie die de verschillende sectie overlays op de home-page laat in- en uitfaden. Echter is dit na 3 dagen worstelen niet gelukt. Het lijkt erop dat de formule niet werkt vanwege de scroll snap die is ingebouwd.
+Ik ben erg veel bezig geweest met het schrijven van een JavaScript functie die de verschillende sectie overlays op de home-page laat in- en uitfaden. Echter is dit na 3 dagen worstelen niet gelukt. Ik wilde eerst de overlays laten faden aan de hand van de scroll positie. Dit werkte echter niet goed met de responsiveness. Ik heb daarom een formule gemaakt die een waarde geeft per sectie. Dit is gelukt echter wanneer ik hier de overlays mee laat faden gaat het mis. Het lijkt erop dat de formule niet werkt vanwege de scroll snap die is ingebouwd.
+
+Omdat ik de overlay fade niet goed werkend kreeg heb ik helaas moeten beslissen hiermee te stoppen om de deadline nog te kunnen halen. Ik heb de home-pagina opnieuw ingedeeld op een manier dat de overlays sticky zijn op de verschillende secties.
+
+Vervolgens heb ik met JavaScript een uitklapbaar navigatiemenu gemaakt.
+Omdat dit succesvol was verlopen ben ik aan de slag gegaan met mijn 2e pagina (model X).
+
+Eén van de uitdagingen op deze pagina was de video achtergrond op de eerste sectie. Dit is uiteindelijk dankzij de geweldige website stackoverflow gelukt.
+Over deze pagina ben ik wel enigszins tevreden echter heb ik nog wel last van een paar bugs waardoor de secties niet mooi aansluiten. Tevens heb ik geprobeerd met JavaScript een mouseover functie voor de buttons maar deze werkte niet vanwege de pointer events die uitstaan voor de scroll snap. 
+
+De website is responsive van mobiel tot desktop.
 
 **Screenshot(s):**
 
