@@ -1,18 +1,15 @@
 # Procesverslag
 **Auteur:** Robbin Jansen
+**Klas:** 206a
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 ## Bronnenlijst
-1. tesla.com/nl_be/
-2. -bron 2-
-3. -...-
-
+1. all images: https://www.tesla.com
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik ben erg veel bezig geweest met het schrijven van een JavaScript functie die de verschillende sectie overlays op de home-page laat in- en uitfaden. Echter is dit na 3 dagen worstelen niet gelukt. Het lijkt erop dat de formule niet werkt vanwege de scroll snap die is ingebouwd.
 
 **Screenshot(s):**
 
@@ -66,7 +63,7 @@ Dit is hoe de home page er nu uit ziet. Als je naar beneden scrollt komen versch
 
 ## Breakdownschets (week 1)
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
+<img src="images/tesla-analyse.jpg" width="375px" alt="Home Screen v1">
 
 
 
