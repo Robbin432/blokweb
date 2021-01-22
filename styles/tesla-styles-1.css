@@ -45,6 +45,12 @@ nav:nth-of-type(1) ul li{
     margin: 0.4em ;
 }
 
+/*
+#modelx nav:nth-of-type(1) ul li{
+    background-color: white;
+}
+*/
+
 button{
     background: none;
     border: none;
@@ -58,6 +64,7 @@ nav:nth-of-type(2) {
     position: absolute;
     top: 0;
     right: 0;
+    color: black;
 }
 nav:nth-of-type(2) li{
 
@@ -115,8 +122,8 @@ a{
 }
 
 p{
-    font-size: 1.5em;
-    margin: 55px 10vw 0;
+    font-size: 1em;
+    margin: 4vh 10vw 0;
     max-width: 80vw;
 
 }
@@ -129,35 +136,58 @@ section {
     height: 100vh;
     scroll-snap-align: start;
 
-
 }
 
 section h1{
-    font-size: 6em;
+    font-size: 3em;
     font-weight: 400;
     font-style: normal;
+    margin-top: 20vh;
+    margin-bottom: 0;
+    animation: fadeIn 2s;
 }
+
+section h2{
+    font-size: 3em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20vh;
+    margin-bottom: 0;
+    animation: fadeIn 2s;
+}
+
+
 
 section .title-link{
-    font-size: 2.2em;
+    font-size: 1em;
+    animation: fadeIn 2s;
 }
 
-section .button-1{
+/*---BUTTONS---*/
+
+section .buttonwrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 20vh 0 0 0;
+    animation: fadeIn 2s;
+}
+
+section .buttonwrapper .button-1{
     background-color: #171A20cc;
     padding: 0.5em 0vw;
     width: 90vw;
-    margin: 0 0 0 0;
+    margin: 9em 0 0 0;
     border-radius: 100px;
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 400;
 
 
 }
 
-section .button-2{
+section .buttonwrapper .button-2{
     background-color: #FFFFFFA6;
     padding: 0.5em 0vw;
     width: 90vw;
@@ -166,33 +196,32 @@ section .button-2{
     color: #171A20;
     text-align: center;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 400;
 
 }
 
 section img{
-    width: 60px;
-    margin: 40px; 0 0 0;
+    width: 4em;
+    margin: 2vh 0 0 0;
+    animation: fadeIn 2s;
 }
+
+
 
 
 /*----------------BLOK 1-----------------*/
 
 main > section:nth-child(1) {
-    background-image: url(../images/mobile_model_3_v2.jpg);
-    background-size: contain;
+    background-image: url("../images/desktop_model_3_v2.jpg");
+    background-size: cover;
+    background-position: center;
     margin: 0px;
     padding: 0px;
     pointer-events: none;
 }
 
-main section:nth-child(1) h1 {
-    margin-top: 20vh;
-    margin-bottom: 0px;
-}
-
-main > section:nth-child(1) > section:nth-child(1) {
+main > section:nth-child(1) div > section:nth-child(1) {
     z-index: 2;
     position: absolute;
     left: 0px;
@@ -204,8 +233,9 @@ main > section:nth-child(1) > section:nth-child(1) {
 /*----------------BLOK 2-----------------*/
 
 main > section:nth-child(2) {
-    background-image: url(../images/Mobile-ModelS.jpg);
-    background-size: contain;
+    background-image: url(../images/Desktop-ModelS.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 0px;
     padding: 0px;
     pointer-events: none;
@@ -223,8 +253,9 @@ main > section:nth-child(2) > section:nth-child(1) {
 /*----------------BLOK 3-----------------*/
 
 main > section:nth-child(3) {
-    background-image: url(../images/Mobile-ModelX.jpg);
-    background-size: contain;
+    background-image: url(../images/Desktop-ModelX.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 0px;
     padding: 0px;
     pointer-events: none;
@@ -243,8 +274,9 @@ main > section:nth-child(3) > section:nth-child(1) {
 /*----------------BLOK 4-----------------*/
 
 main > section:nth-child(4) {
-    background-image: url(../images/Mobile-ModelY.jpg);
-    background-size: contain;
+    background-image: url(../images/Desktop-ModelY.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 0px;
     padding: 0px;
     pointer-events: none;
@@ -263,8 +295,9 @@ main > section:nth-child(4) > section:nth-child(1) {
 /*----------------BLOK 5-----------------*/
 
 main > section:nth-child(5) {
-    background-image: url(../images/Mobile-SolarPanels.jpg);
-    background-size: contain;
+    background-image: url(../images/Desktop-SolarPanels.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 0px;
     padding: 0px;
     pointer-events: none;
@@ -283,8 +316,9 @@ main > section:nth-child(5) > section:nth-child(1) {
 /*----------------BLOK 6-----------------*/
 
 main > section:nth-child(6) {
-    background-image: url(../images/Mobile-Accessories.jpg);
-    background-size: contain;
+    background-image: url(../images/Desktop-Accessories.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 0px;
     padding: 0px;
     pointer-events: none;
@@ -332,6 +366,7 @@ footer li{
     font-size: 1em;
     text-align: center;
     margin: 20px 0 ;
+    display: none;
 
 /*    animation: fadeIn, ease 20s;*/
 }
@@ -345,8 +380,26 @@ footer li{
 
 /*START MODEL X PAGE*/
 
+/*RESET text*/
 
+#modelx h2{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-top: auto;
+}
 
+h4{
+    margin: 0;
+}
+
+#modelx p {
+    margin: auto;
+    max-width: 100%
+}
+
+#modelx main{
+    white-space: pre-wrap;
+}
 
 
 /*----------------BLOCK 1-----------------*/
@@ -354,20 +407,12 @@ footer li{
 #modelx main > section:nth-child(1) {
     background-image: none;
     background-size: contain;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     pointer-events: none;
-    height: 150vh;
+    height: 100vh;
     z-index: 1;
-}
-
-main > section:nth-child(1) > section:nth-child(1) {
-    z-index: 2;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    opacity: 1;
-    width: 100vw;
+    color: white;
 }
 
 video{
@@ -382,9 +427,41 @@ video{
     overflow-x: hidden;
 }
 
+section:nth-child(1) .specbanner {
+    display: flex;
+    max-width: 100vw;
+    margin-top: 50vh;
+}
+
+#modelx section:nth-child(1) a {
+    color: white;
+    padding: 1em 5em;
+    border: white solid;
+    border-width: 0.2em;
+    border-radius: 2em;
+    height: 0.5em;
+    margin-top: 3vh;
+
+}
+
+section:nth-child(1) .specbanner div{
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    justify-content: center;
+    border-right: white solid;
+    border-width: 1px;
+}
+
+#modelx section:nth-child(1) .specbanner div:nth-of-type(3){
+    border: none;
+
+}
+
 /*----------------BLOCK 2-----------------*/
 
 #modelx main > section:nth-child(2) {
+    display: flex;
     background-color: white;
     background-image: none;
     background-size: auto;
@@ -395,115 +472,306 @@ video{
     flex-direction: row;
     z-index: 1;
     opacity: 1;
-    width: 100%;
+    width: 100vw;
+
 }
 
 #modelx main > section:nth-child(2) > section:nth-child(1) {
     background-image: none;
-    z-index: 2;
-    position: relative;
+    z-index: 1;
+    position:relative;
     left: auto;
     top: auto;
     opacity: 1;
     width: 100%;
 }
 
-#modelx main > section:nth-child(2){
+#modelx main section #block2-1 h2{
+    align-self: flex-start;
+    margin: 15vh 0 3vh 0;
 }
 
 
 #modelx main section #block2-1{
     z-index: 1;
-    width: 30%;
-    height: 30%;
-/*    background-image: url(../images/safety-model-x-hero.png)*/
+    width: 20vw;
+    background-color: white;
+    padding: 0 3em 0 3em;
+
 }
 
 #modelx main section #block2-2{
     z-index: 1;
-    width: 70%;
-    background-image: url(../blokweb/images/safety-model-x-hero.png)
+    width: 80vw;
+    background-image: url("/images/safety-model-x-hero.png");
+    background-color: whitesmoke;
 }
 
 /*----------------BLOK 3-----------------*/
 
 #modelx main > section:nth-child(3) {
-    background-image: url(../blokweb/images/modelx-snow.jpg);
+    display: flex;
+    flex-direction: column;
     background-size: cover;
+    background-image: none;
     margin: 0px;
     padding: 0px;
     pointer-events: none;
-    width: 100%;
+    height: 100vh;
+    opacity: 1;
 }
 
 #modelx main > section:nth-child(3) > section:nth-child(1) {
-    z-index: 4;
-    position: absolute;
+    z-index: 1;
+    position: relative;
     left: 0px;
     top: 0px;
-    opacity: 0;
+    opacity: 1;
     width: 100%;
+}
+
+
+#modelx main section #block3-1{
+        z-index: 1;
+        background-image: url("/images/modelx-snow.jpg");
+        background-size: cover;
+        height: 70vh;
+        width: 100vw;
+        opacity: 1;
+}
+
+#modelx #block3-1 .specbanner{
+        margin-top: 55vh;
+        color: black;
+}
+
+#modelx section:nth-child(3) .specbanner div{
+        display: flex;
+        flex-direction: column;
+        width: 10em;
+        justify-content: center;
+        border-right: black solid;
+        border-width: 1px;
+}
+
+
+#modelx main section #block3-2{
+        z-index: 1;
+        background-color: white;
+        height: 30vh;
+        width: 100vw;
+        opacity: 1;
+        flex-direction: row;
+}
+
+#modelx main section #block3-2-1{
+        width: auto;
+        padding-left: 10vw;
+}
+
+#modelx main section #block3-2-1 button{
+        border: 2px solid;
+        border-color: black;
+        border-radius: 4em;
+        padding: 1em 5em;
+        margin: 2em 0;
+}
+
+#modelx main section #block3-2-2{
+        width: 50vw;
+        padding: 5vh 5vw;
+}
+
+#modelx main section #block3-2 h3{
+        margin: 0;
+        font-weight: 100;
+
 }
 
 /*----------------BLOK 4-----------------*/
 
 #modelx main > section:nth-child(4) {
-    background-image: url(../blokweb/images/Mobile-ModelY.jpg);
-    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    background-image: none;
     margin: 0px;
     padding: 0px;
     pointer-events: none;
-    width: 100%;
+    height: 100vh;
+    opacity: 1;
 }
 
 #modelx main > section:nth-child(4) > section:nth-child(1) {
-    z-index: 5;
-    position: absolute;
+    z-index: 1;
+    position: relative;
     left: 0px;
     top: 0px;
-    opacity: 0;
+    opacity: 1;
     width: 100%;
 }
 
+
+#modelx main section #block4-1{
+        z-index: 1;
+        background-image: url("/images/range-hero-poster.png");
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        opacity: 1;
+}
+
+#modelx #block4-1 .specbanner{
+        margin-top: 55vh;
+        color: white;
+}
+
+section:nth-child(4) .specbanner div{
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    justify-content: center;
+    border-right: white solid;
+    border-width: 1px;
+}
+
+
+#modelx main section #block4-2{
+        z-index: 1;
+        background-color: white;
+        height: 100vh;
+        width: 30vw;
+        opacity: 1;
+        flex-direction: column;
+}
+
+#modelx main section #block4-2-1{
+        width: auto;
+
+}
+
+#modelx main section #block4-2-2{
+        width: 19vw;
+        padding: 0vh 5vw;
+}
+
+#modelx main section #block4-2-2 button{
+        border: 2px solid;
+        border-color: black;
+        border-radius: 4em;
+        padding: 1em 5em;
+        margin: 2em 0;
+}
+
+#modelx main section #block4-2 h3{
+        margin: 0;
+        font-weight: 100;
+
+}
 /*----------------BLOK 5-----------------*/
 
 #modelx main > section:nth-child(5) {
-    background-image: url(../blokweb/images/modelx-black.jpg);
-    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-image: none;
     margin: 0px;
     padding: 0px;
     pointer-events: none;
-    width: 100%;
+    height: auto;
+    opacity: 1;
 }
 
 #modelx main > section:nth-child(5) > section:nth-child(1) {
-    z-index: 6;
-    position: absolute;
+    z-index: 1;
+    position: relative;
     left: 0px;
     top: 0px;
-    opacity: 0;
+    opacity: 1;
+    width: 100%;
+}
+
+
+#modelx main section #block5-1{
+        z-index: 1;
+        background-image: url("/images/modelx-black.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 30vh;
+        width: 100vw;
+        opacity: 1;
+}
+
+#modelx #block5-1 .specbanner{
+        margin-top: 55vh;
+        color: black;
+}
+
+
+#modelx main section #block5-2{
+        z-index: 1;
+        background-color: black;
+        height: 80vh;
+        width: 100vw;
+        padding-bottom: 10vh;
+        opacity: 1;
+        flex-direction: row;
+        justify-content: center;
+        color: white;
+}
+
+#modelx main section #block5-2-1{
+        width: auto;
+        padding-left: 10vw;
+}
+
+#modelx main section #block5-2-2{
+        width: 100vw;
+        padding: 0 5vw;
+        display: flex;
+        justify-content: space-between;
+}
+
+#modelx main section #block5-2-2 ul{
+        list-style: none;
+        height: auto;
+        padding: 1em;
+        margin: 0;
+        max-width: 40vw;
+}
+
+#modelx main section #block5-2-2 li{
+        height: 5em;
+}
+
+#modelx main section #block5-2 h3{
+        margin: 0;
+        font-weight: 100;
 
 }
 
 /*----------------BLOK 6-----------------*/
 
+/*
 #modelx main > section:nth-child(6) {
-    background-image: url(../blokweb/images/Mobile-Accessories.jpg);
+    background-image: url(../images/Mobile-Accessories.jpg);
     background-size: contain;
     margin: 0px;
     padding: 0px;
     pointer-events: none;
     width: 100%;
+    z-index: 1;
 }
 
 #modelx main > section:nth-child(6) > section:nth-child(1) {
-    z-index: 7;
+    z-index: 1;
     position: absolute;
     left: 0px;
     top: 0px;
     opacity: 0;
     width: 100%;
 }
+*/
 
 /*keyframes*/
 
@@ -511,6 +779,134 @@ video{
 0% {opacity:0;}
 100% {opacity:1;}
 }
+
+
+/*Mobile only*/
+@media screen and (max-width: 800px) {
+    main > section:nth-child(1) {
+    background-image: url(../images/mobile_model_3_v2.jpg);
+    }
+
+    main > section:nth-child(2) {
+    background-image: url(../images/Mobile-ModelS.jpg);
+    }
+    main > section:nth-child(3) {
+    background-image: url(../images/Mobile-ModelX.jpg);
+    }
+    main > section:nth-child(4) {
+    background-image: url(../images/Mobile-ModelY.jpg);
+    }
+    main > section:nth-child(5) {
+    background-image: url(../images/Mobile-SolarPanels.jpg);
+    }
+    main > section:nth-child(6) {
+    background-image: url(../images/Mobile-Accessories.jpg);
+    }
+
+    #modelx p{
+        margin: 0 2em;
+    }
+
+/*BLOCK1*/
+
+section:nth-child(1) .specbanner {
+    margin-top: 45vh;
+    }
+
+/*BLOCK2*/
+    #modelx main > section:nth-child(2) {
+    flex-direction: column-reverse;
+    height: 70vh;
+    }
+
+    #modelx main section #block2-1{
+    height: 30vh;
+    width: 100vw;
+    }
+
+    #modelx main section #block2-1 h2{
+    margin: 0.5em 1em;
+    }
+
+    #modelx main section #block2-2{
+    height: 50vh;
+    width: 100vw;
+    background-position: center left;
+    }
+
+
+/*BLOCK3*/
+    #modelx main section #block3-2{
+    flex-direction: column-reverse;
+    height: auto;
+    }
+
+    #modelx #block3-1 .specbanner{
+    margin-top: 37vh;
+    }
+
+    #modelx #block3-2 p{
+    width: 80vw;
+    }
+
+    #modelx main section #block3-2-2{
+    width: 100vw;
+    padding: 5vh 5vw;
+    }
+
+    #modelx main section #block3-2-1{
+    width: 100vw;
+    }
+
+/*BLOCK4*/
+    #modelx main > section:nth-child(4) {
+    flex-direction: column;
+    }
+
+    #modelx main section #block4-2-1{
+    width: 100vw;
+    padding-left: 10vw;
+    }
+
+    #modelx main section #block4-2-2{
+    width: 100vw;
+    padding: 0 5vw;
+    }
+
+    #modelx #block4-2 p{
+    width: 80vw;
+    }
+
+    #modelx main section #block4-2{
+    width: 100vw;
+    }
+
+
+}
+
+/*Desktop only*/
+@media screen and (min-width: 800px) {
+
+/*BLOCK5   */
+    #modelx main > section:nth-child(5) {
+    flex-direction: row;
+    }
+
+    #modelx main section #block5-1{
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 100vh;
+    }
+
+    #modelx main section #block5-2{
+    width: 50vw;
+    height: 100vh;
+    padding: 0;
+    }
+}
+
 
 
 
