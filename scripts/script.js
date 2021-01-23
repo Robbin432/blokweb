@@ -9,7 +9,6 @@
 
 
 
-
 //----------------------nav-on-click-------------------------
 //eslint-disable-next-line no-unused-vars
 
@@ -21,15 +20,6 @@ navbutton.addEventListener("click", function() {
     navmenu.classList.toggle("menushown");
 
 });
-
-
-
-
-
-
-
-
-//------------------Button-Hover---------------------------
 
 
 //----------------------opacity-scroll-------------------------
