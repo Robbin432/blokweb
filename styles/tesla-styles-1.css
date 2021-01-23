@@ -2,107 +2,102 @@
 
 @font-face {
     font-family: 'Gotham';
-    src: url('/fonts/Gotham-Medium.woff2') format('woff2'),
-        url('/fonts/Gotham-Medium.woff') format('woff'),
-        url('/fonts/Gotham-Medium.ttf') format('truetype');
+    src: url('../fonts/Gotham-Medium.woff2') format('woff2'),
+        url('../fonts/Gotham-Medium.woff') format('woff'),
+        url('../fonts/Gotham-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url('/fonts/Gotham-Medium_1.woff2') format('woff2'),
-        url('/fonts/Gotham-Medium_1.woff') format('woff'),
-        url('/fonts/Gotham-Medium_1.ttf') format('truetype');
+    src: url('../fonts/Gotham-Medium_1.woff2') format('woff2'),
+        url('../fonts/Gotham-Medium_1.woff') format('woff'),
+        url('../fonts/Gotham-Medium_1.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url('/fonts/Gotham-Light.woff2') format('woff2'),
-        url('/fonts/Gotham-Light.woff') format('woff'),
-        url('/fonts/Gotham-Light.ttf') format('truetype');
+    src: url('../fonts/Gotham-Light.woff2') format('woff2'),
+        url('../fonts/Gotham-Light.woff') format('woff'),
+        url('../fonts/Gotham-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url('/fonts/Gotham-Bold.woff2') format('woff2'),
-        url('/fonts/Gotham-Bold.woff') format('woff'),
-        url('/fonts/Gotham-Bold.ttf') format('truetype');
+    src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff'),
+        url('../fonts/Gotham-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url('/fonts/Gotham-Book.woff2') format('woff2'),
-        url('/fonts/Gotham-Book.woff') format('woff'),
-        url('/fonts/Gotham-Book.ttf') format('truetype');
+    src: url('../fonts/Gotham-Book.woff2') format('woff2'),
+        url('../fonts/Gotham-Book.woff') format('woff'),
+        url('../fonts/Gotham-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 
 @font-face {
     font-family: 'Gotham';
-    src: url('/fonts/Gotham-Thin.woff2') format('woff2'),
-        url('/fonts/Gotham-Thin.woff') format('woff'),
-        url('/fonts/Gotham-Thin.ttf') format('truetype');
+    src: url('../fonts/Gotham-Thin.woff2') format('woff2'),
+        url('../fonts/Gotham-Thin.woff') format('woff'),
+        url('../fonts/Gotham-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
-    font-display: swap;
 }
 
 
 @font-face {
     font-family: 'Gotham';
-    src: url('/fonts/Gotham-Black.woff2') format('woff2'),
-        url('/fonts/Gotham-Black.woff') format('woff'),
-        url('/fonts/Gotham-Black.ttf') format('truetype');
+    src: url('../fonts/Gotham-Black.woff2') format('woff2'),
+        url('../fonts/Gotham-Black.woff') format('woff'),
+        url('../fonts/Gotham-Black.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url('/fonts/Gotham-XLight.woff2') format('woff2'),
-        url('/fonts/Gotham-XLight.woff') format('woff'),
-        url('/fonts/Gotham-XLight.ttf') format('truetype');
+    src: url('../fonts/Gotham-XLight.woff2') format('woff2'),
+        url('../fonts/Gotham-XLight.woff') format('woff'),
+        url('../fonts/Gotham-XLight.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
 }
 
 
 @font-face {
     font-family: 'Gotham';
-    src: url('/fonts/Gotham-Light_1.woff2') format('woff2'),
-        url('/fonts/Gotham-Light_1.woff') format('woff'),
-        url('/fonts/Gotham-Light_1.ttf') format('truetype');
+    src: url('../fonts/Gotham-Light_1.woff2') format('woff2'),
+        url('../fonts/Gotham-Light_1.woff') format('woff'),
+        url('../fonts/Gotham-Light_1.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url('/fonts/Gotham-Bold_1.woff2') format('woff2'),
-        url('/fonts/Gotham-Bold_1.woff') format('woff'),
-        url('/fonts/Gotham-Bold_1.ttf') format('truetype');
+    src: url('../fonts/Gotham-Bold_1.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold_1.woff') format('woff'),
+        url('../fonts/Gotham-Bold_1.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
 }
 
+
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 
 body {
     width: 100vw;
@@ -121,7 +116,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    padding: 50px 0;
+    padding: 2em 0;
     margin: 0;
     position: fixed;
     z-index: 100;
@@ -131,7 +126,7 @@ header {
 
 header img{
     height: 1em;
-    margin: 0 50px;
+    margin: 0 2em;
 }
 
 nav:nth-of-type(1){
@@ -170,9 +165,12 @@ nav:nth-of-type(2) {
     width: 19em;
     position: absolute;
     top: 0;
-    right: 0;
+    right: -19em;
     color: black;
+    opacity: 0;
+    pointer-events: none;
 }
+
 nav:nth-of-type(2) li{
 
     padding: 1.5em 0;    list-style: none;
@@ -182,7 +180,6 @@ nav:nth-of-type(2) li{
 }
 
 nav li:nth-of-type(1){
-
     margin-top: 5em;
 
 }
@@ -191,18 +188,11 @@ nav:nth-of-type(2) li a{
     text-decoration: none;
 }
 
-.menuhidden{
-    opacity: 0;
-    pointer-events: none;
-}
-
-.menushown{
+nav.menushown{
     opacity: 1;
     pointer-events: all;
-}
-
-.navbuttonoff{
-
+    animation: SlideIn 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .navbuttonshown{
@@ -222,6 +212,7 @@ main{
 #overlay{
     position: fixed;
     z-index: 100;
+    height: 100vh;
 }
 
 a{
@@ -285,7 +276,7 @@ section .buttonwrapper .button-1{
     padding: 0.5em 0vw;
     width: 90vw;
     margin: 9em 0 0 0;
-    border-radius: 100px;
+    border-radius: 100em;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -300,7 +291,7 @@ section .buttonwrapper .button-2{
     padding: 0.5em 0;
     width: 90vw;
     margin: 40px 0 0 0;
-    border-radius: 100px;
+    border-radius: 100em;
     color: #171A20;
     text-align: center;
     text-decoration: none;
@@ -472,7 +463,7 @@ footer li{
     width: 80vw;
     font-size: 1em;
     text-align: center;
-    margin: 20px 0 ;
+    margin: 2vh 0 ;
 }
 
 #modelx footer{
@@ -517,11 +508,10 @@ h4{
 
 #modelx main > section:nth-child(1) {
     background-image: none;
-    background-size: contain;
     margin: 0;
     padding: 0;
     pointer-events: none;
-    height: 100vh;
+    height: 100%;
     z-index: 1;
     color: white;
 }
@@ -546,11 +536,11 @@ section:nth-child(1) .specbanner {
 
 #modelx section:nth-child(1) a {
     color: white;
+    text-decoration: none;
     padding: 1em 5em;
     border: white solid;
     border-width: 0.2em;
     border-radius: 2em;
-    height: 0.5em;
     margin-top: 3vh;
 
 }
@@ -583,8 +573,11 @@ section:nth-child(1) .specbanner div{
     flex-direction: row;
     z-index: 1;
     opacity: 1;
-    width: 100vw;
 
+}
+
+#modelx main > section:nth-child(2) > h2:nth-child(1){
+    display: none;
 }
 
 #modelx main > section:nth-child(2) > section:nth-child(1) {
@@ -618,6 +611,10 @@ section:nth-child(1) .specbanner div{
     background-color: whitesmoke;
 }
 
+#modelx main section #block2-2 h2{
+    display: none;
+}
+
 /*----------------BLOK 3-----------------*/
 
 #modelx main > section:nth-child(3) {
@@ -630,6 +627,14 @@ section:nth-child(1) .specbanner div{
     pointer-events: none;
     height: 100vh;
     opacity: 1;
+}
+
+#modelx main > section:nth-child(3) > h2:nth-child(1){
+    display: none;
+}
+
+#modelx main > section:nth-child(3) > section:first-of-type > h2:first-of-type{
+    display: none;
 }
 
 #modelx main > section:nth-child(3) > section:nth-child(1) {
@@ -647,13 +652,15 @@ section:nth-child(1) .specbanner div{
         background-image: url("../images/modelx-snow.jpg");
         background-size: cover;
         height: 70vh;
-        width: 100vw;
+        width: 100%;
         opacity: 1;
 }
 
 #modelx #block3-1 .specbanner{
         margin-top: 55vh;
         color: black;
+        display: flex;
+        flex-direction: row;
 }
 
 #modelx section:nth-child(3) .specbanner div{
@@ -670,7 +677,7 @@ section:nth-child(1) .specbanner div{
         z-index: 1;
         background-color: white;
         height: 30vh;
-        width: 100vw;
+        width: 100%;
         opacity: 1;
         flex-direction: row;
 }
@@ -713,6 +720,14 @@ section:nth-child(1) .specbanner div{
     opacity: 1;
 }
 
+#modelx main > section:nth-child(4) > h2:first-of-type{
+    display: none;
+}
+
+#modelx main > section:nth-child(4) > section:first-of-type > h2:first-of-type{
+    display: none;
+}
+
 #modelx main > section:nth-child(4) > section:nth-child(1) {
     z-index: 1;
     position: relative;
@@ -735,6 +750,8 @@ section:nth-child(1) .specbanner div{
 #modelx #block4-1 .specbanner{
         margin-top: 55vh;
         color: white;
+        display: flex;
+        flex-direction: row;
 }
 
 section:nth-child(4) .specbanner div{
@@ -754,10 +771,13 @@ section:nth-child(4) .specbanner div{
         width: 30vw;
         opacity: 1;
         flex-direction: column;
+        align-items: center;
 }
 
 #modelx main section #block4-2-1{
-        width: auto;
+        width: 19vw;
+        padding: 0vh 5vw;
+
 
 }
 
@@ -793,6 +813,14 @@ section:nth-child(4) .specbanner div{
     opacity: 1;
 }
 
+#modelx main > section:nth-child(5) > h2:first-of-type{
+    display: none;
+}
+
+#modelx main > section:nth-child(5) > section:first-of-type > h2:first-of-type{
+    display: none;
+}
+
 #modelx main > section:nth-child(5) > section:nth-child(1) {
     z-index: 1;
     position: relative;
@@ -808,7 +836,7 @@ section:nth-child(4) .specbanner div{
         background-image: url("../images/modelx-black.jpg");
         background-size: cover;
         background-position: center;
-        height: 30vh;
+        height: 60vh;
         width: 100vw;
         opacity: 1;
 }
@@ -869,6 +897,11 @@ section:nth-child(4) .specbanner div{
 100% {opacity:1;}
 }
 
+@keyframes SlideIn {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-19em);}
+}
+
 
 /*Mobile only*/
 @media screen and (max-width: 800px) {
@@ -892,7 +925,7 @@ section:nth-child(4) .specbanner div{
     }
 
     #modelx p{
-        margin: 0 2em;
+    margin: 0 2em;
     }
 
 /*BLOCK1*/
@@ -910,6 +943,7 @@ section:nth-child(1) .specbanner {
     #modelx main section #block2-1{
     height: 30vh;
     width: 100vw;
+    padding: 0;
     }
 
     #modelx main section #block2-1 h2{
@@ -924,6 +958,11 @@ section:nth-child(1) .specbanner {
 
 
 /*BLOCK3*/
+    #modelx main > section:nth-child(2) {
+
+    }
+
+
     #modelx main section #block3-2{
     flex-direction: column-reverse;
     height: auto;
@@ -939,7 +978,7 @@ section:nth-child(1) .specbanner {
 
     #modelx main section #block3-2-2{
     width: 100vw;
-    padding: 5vh 5vw;
+    padding: 5vh 5vw 0 5vw;
     }
 
     #modelx main section #block3-2-1{
@@ -949,15 +988,22 @@ section:nth-child(1) .specbanner {
 /*BLOCK4*/
     #modelx main > section:nth-child(4) {
     flex-direction: column;
+    height: 160vw;
+    }
+
+    #modelx main section #block4-1 .specbanner{
+    margin-top: 30vh;
     }
 
     #modelx main section #block4-2-1{
-    width: 100vw;
-    padding-left: 10vw;
+    width: 80vw;
+    padding: 0;
+    margin:  0 2em;
+
     }
 
     #modelx main section #block4-2-2{
-    width: 100vw;
+    width: 90vw;
     padding: 0 5vw;
     }
 
