@@ -22,6 +22,16 @@ Omdat dit succesvol was verlopen ben ik aan de slag gegaan met mijn 2e pagina (m
 Eén van de uitdagingen op deze pagina was de video achtergrond op de eerste sectie. Dit is uiteindelijk dankzij de geweldige website stackoverflow gelukt.
 Over deze pagina ben ik wel enigszins tevreden echter heb ik nog wel last van een paar bugs waardoor de secties niet mooi aansluiten. Deze zijn ontstaan door de hoogte van de main die 100vh moet zijn om de scroll snap te laten werken. Dit was op te lossen door de  hoogte van de main op auto te zetten alleen dan werkt de scroll snap niet meer. Om dit goed op te lossen moeten alle hoogtewaardes worden nagelopen zodat ook met een main op 100vh er geen gaps ontstaan. Hier was echter geen tijd meer voor. Tevens heb ik geprobeerd met JavaScript een mouseover functie voor de buttons maar deze werkte niet vanwege de pointer events die uitstaan voor de scroll snap. 
 
+aanvullend werk naar aanleiding van feedback:
+- Beautifyer gebruikt
+- Validator check
+- alle errors en warnings verholpen in html en JavaScript
+- tags aangepast, " " toegevoegd waar nodig en classes en id's semantisch correct gemaakt
+- fonts juist aanroepen
+- px afmetingen veranderd naar em, vh, vw 
+- Nav Menu slide-in met animatie
+- JavaScript in HTML veranderd naar JavaScript-only met behulp van 3-stap https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/
+
 
 **Screenshot(s):**
 
