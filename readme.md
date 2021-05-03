@@ -15,10 +15,7 @@ Ik laat aan de hand van de schermbreedte en flexbox verschillende flex-direction
 Vervolgens heb ik met JavaScript een uitklapbaar navigatiemenu gemaakt.
 Omdat dit succesvol was verlopen ben ik aan de slag gegaan met mijn 2e pagina (model X).
 
-Eén van de uitdagingen op deze pagina was de video achtergrond op de eerste sectie. Dit is uiteindelijk dankzij de geweldige website stackoverflow gelukt.
-Over deze pagina ben ik wel enigszins tevreden echter heb ik nog wel last van een paar bugs waardoor de secties niet mooi aansluiten. Deze zijn ontstaan door de hoogte van de main die 100vh moet zijn om de scroll snap te laten werken. Dit was op te lossen door de  hoogte van de main op auto te zetten alleen dan werkt de scroll snap niet meer. Om dit goed op te lossen moeten alle hoogtewaardes worden nagelopen zodat ook met een main op 100vh er geen gaps ontstaan. Hier was echter geen tijd meer voor. 
-
-aanvullend werk naar aanleiding van feedback:
+aanvullend werk:
 - Beautifyer gebruikt
 - Validator check
 - alle errors en warnings verholpen in html en JavaScript
